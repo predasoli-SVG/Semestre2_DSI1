@@ -1,0 +1,25 @@
+body{background-color: rgba(206, 180, 110, 0.233);
+}
+
+em{
+    color: blue;
+}
+
+/*id*/
+/*Atributo HTML que adicione um identificador único na tag. Esse identificador pode ser utilizado no CSS para selecionarmos o elemento*/
+
+#paragrafo1{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+    color: rgba(37, 39, 39, 0.836);
+}
+
+/*CLASSES*/
+/*Atributos HTML que adiciona um identificado reutilizavel na TAG. Esse identificador pode ser utilizado no CSS para selecionarmos (a) elemento(s:)*/
+
+.titulo{
+    color: blue;
+}
