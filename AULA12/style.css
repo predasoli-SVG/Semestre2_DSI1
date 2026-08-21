@@ -1,0 +1,27 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(103, 172, 151, 0.445);
+    border: 5px dashed rgba(13, 13, 221, 0.541);
+    padding: 25px;
+}
+
+
+/* dashed borda pontilhada, solid para borda completa */
+.box2{
+    width: 100px;
+    height: auto;
+    background-color: rgba(73, 130, 180, 0.568);
+}
+
+.box3{
+   border: 5px dashed slateblue;
+border-radius: 20px;
+
+padding-top: 10px;
+padding-bottom: 20px;
+padding-right: 10px;
+padding-left: 10px;
+
+background-color: rgba(41, 114, 114, 0.322);
+}
