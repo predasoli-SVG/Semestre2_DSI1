@@ -1,0 +1,45 @@
+body{
+background-color: #b690907c;
+
+}
+
+
+/* 
+justify-content: define o alinhamento horizontal dos itens dentro de um container flexível.
+
+Flex-start: alinhar os itens à esquerda center: Centralize os itens horizontalmente flex-end: alinhar os itens à direita
+flex-end: alinhar os itens à direita
+space-around: distribuir espaço ao redor dos itens
+space-evenly: distribuir espaço uniformemente entre os itens(inclusive nas bordas)
+
+ */
+/* flex-start: alinha os itens no topo 
+center: centraliza verticalmente
+flex-end: alinha os itens na parte inferior
+baseline: alinha os itens na linha de base do texto, para ocupra toda a largura
+stretch: estica os itens para preencher o contêiner verticalmente
+
+flex-direction: define a direção dos itens dentro de um container flexível. alinha os itens da esqyuerda para a direita (row), da direita para a esquerda (row-reverse), de cima para baixo (column) e de baixo para cima (column-reverse)
+
+column: alinha os itens de cima para baixo
+column-reverse: alinha os itens de baixo para cima
+ */
+
+ .container{
+    background-color: #b69090;
+    justify-content: space-around;
+    display: column;
+    /* tste com: space around, flex start,space between, space around, space evenly */
+    height: 500px;
+    width: 500px;
+ }
+
+ .box{
+    
+    background-color: #d12222;
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    border-radius: 5px;
+    border: 1px solid #0212f5;
+ }
