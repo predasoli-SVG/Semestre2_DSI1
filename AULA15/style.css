@@ -1,0 +1,80 @@
+body {
+display: flex;
+flex-direction: column;
+align-items: center;
+    margin: 0;
+    background: linear-gradient(120deg, #3252e2, #c033b9);
+    min-height: 100vh; /* Garante que o gradiente ocupe a tela inteira */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #4440408a;
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border:4px solid #9b5cc5bb;
+}
+header h1 {
+   /* cima , esquerda/direita / baixo */
+    margin: 15px 0 5px 0; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+
+}
+header p {
+    margin: 2;
+    font-size: 1.2rem;
+}
+
+main {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    width: 90%;
+}
+
+.card{
+    margin: 6px;
+    background-color: #4440408a;
+    border-radius: 10px;
+    padding: 13px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+/* Efeito de hover no  mouse */
+.card:hover {
+    transform: scale(1.10);
+
+}
+
+.card h2 {
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #c033b9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.footer {
+    background-color: #4440408a;
+    font-size: 0.9rem;
+}
